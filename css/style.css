@@ -598,6 +598,7 @@ img {
 .form-botton:hover,
 .form-botton:focus {
   background-color: #404bbf;
+  fill: #ffffff;
 }
 
 .botton-icon {
@@ -626,7 +627,12 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
   
+}
+
+.review-form-modal-window {
+  margin-bottom: 8px;
 }
 
 .modal-close-button {
@@ -745,6 +751,10 @@ img {
 .review-form-checkbox-wrapper {
   margin-bottom: 24px;
 }
+.review-form-check {
+  margin-bottom: 16px
+
+}
 
 .review-form-checkbox-label {
   font-size: 12px;
@@ -754,7 +764,7 @@ img {
   color: #8e8f99;
 }
 
-.review-form-own-checkbox {
+.review-form-checkbox-span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -806,9 +816,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .review-form-submit:hover,
 .review-form-submit:focus {
   background-color: #404bbf;
+  fill: #ffffff;
 }
