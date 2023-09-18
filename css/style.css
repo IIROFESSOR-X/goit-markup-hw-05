@@ -608,7 +608,7 @@ img {
   margin-left: 16px;
 }
 
-.modal-conteiner {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
