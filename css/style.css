@@ -558,6 +558,10 @@ img {
 
 }
 
+.review-form-text {
+
+}
+
 .input-style {
   width: 264px;
   height: 40px;
@@ -667,7 +671,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.review-form-description {
+.review-form-text {
   color: #2e2f42;
   text-align: center;
   font-size: 16px;
@@ -819,6 +823,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .review-form-submit:hover,
